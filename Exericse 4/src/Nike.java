@@ -20,6 +20,6 @@ public class Nike extends Shoes{
 	}
 	
     public String toString() {
-        return super.toString() + "\nDiscount rate\t\t: " + rate +"%";
+        return super.toString() + "\nDiscount rate\t\t\t: " + rate +"%";
     }
 }

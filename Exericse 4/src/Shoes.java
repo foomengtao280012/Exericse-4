@@ -30,8 +30,9 @@ public class Shoes {
 	}
 	
 	public String toString() {
-		return "Quantity\t\t: " + this.quantity
-		+ "\nPrice\t\t\t: RM" + this.price;
+		return "Quantity\t\t\t: " + this.quantity +
+			   "\nPrice\t\t\t\t: RM" + getPrice() +
+			   "\nTotal price\t\t\t: RM" + getTotalPrice();
 	}
 
 }
